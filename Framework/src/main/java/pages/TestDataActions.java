@@ -11,7 +11,7 @@ import ie.curiositysoftware.tdm.services.DataListService;
 import ie.curiositysoftware.utils.PageImplToHashMap;
 import ie.curiositysoftware.utils.UnirestHelper;
 import io.appium.java_client.AppiumDriver;
-import jdk.nashorn.internal.ir.annotations.Ignore;
+//import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
 import utilities.ConnectionManager;
@@ -25,7 +25,7 @@ import java.util.*;
 
 public class TestDataActions extends BasePage
 {
-    @Ignore
+   // @Ignore
     public TestDataActions(AppiumDriver driver) {
         super(driver);
     }

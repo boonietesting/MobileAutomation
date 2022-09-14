@@ -10,7 +10,7 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
-import jdk.nashorn.internal.ir.annotations.Ignore;
+//import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
@@ -24,7 +24,7 @@ import utilities.CapabilityLoader;
 import java.time.Duration;
 
 public class MobileGeneralActions extends BasePage {
-    @Ignore
+    //@Ignore
     public MobileGeneralActions(AppiumDriver driver) {
         super(driver);
     }
