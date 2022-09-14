@@ -1,12 +1,6 @@
 pipeline {
   agent any
   stages {
-    stage('Code') {
-      steps {
-        git(url: 'https://github.com/boonietesting/MobileAutomation.git', branch: 'main', poll: true)
-      }
-    }
-
     stage('Test') {
       steps {
         echo 'Start mobile testing'
