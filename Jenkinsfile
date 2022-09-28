@@ -24,6 +24,7 @@ pipeline {
         stage('Environment Build') {
           steps {
             echo 'Deploy Start'
+            sleep 1
           }
         }
 
