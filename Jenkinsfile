@@ -34,23 +34,11 @@ pipeline {
           }
         }
 
-        stage('Secure Environment') {
-          steps {
-            sleep 2
-          }
-        }
-
       }
     }
 
-    stage('Test Run') {
+    stage('Test') {
       parallel {
-        stage('Test Run') {
-          steps {
-            echo 'Deploy Start'
-          }
-        }
-
         stage('Automation Execution') {
           steps {
             sleep 3
