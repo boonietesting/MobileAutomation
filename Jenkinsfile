@@ -24,8 +24,6 @@ pipeline {
         stage('Environment Build') {
           steps {
             echo 'Deploy Start'
-            sh '''cd framework
-mvn -Dtest=ConnectToDevice_TestCases test'''
           }
         }
 
